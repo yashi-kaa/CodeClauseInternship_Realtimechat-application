@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 2;
+  font-family: Arial, sans-serif;
+  background-image: url("/public/background2.jpg"); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  overflow: hidden;
+}
+
+.about-container {
+  padding: 20px;
+  padding-top: 0%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); 
+  text-align: center; 
+}
+
+.about-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-container p ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  text-align: left; 
+}
+
+.about-container p ul li {
+  margin-bottom: 10px;
+}
+
+.about-container p strong {
+  display: block;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
